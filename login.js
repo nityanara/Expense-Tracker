@@ -34,11 +34,12 @@ loginForm.addEventListener("submit", function (e) {
     alert("✅ Login Successful!");
 
     // Go to dashboard
-    window.location.href = "index.html";
+    window.location.href = "home.html";
 
   } else {
 
     alert("❌ Invalid username or password!");
 
   }
+
 });
